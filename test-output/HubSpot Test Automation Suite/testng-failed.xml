@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [HubSpot Test Automation Suite]">
+  <test name="HubSpot Regression Test cases on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <methods>
+          <include name="verifyAccountNameTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageHeaderTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <methods>
+          <include name="verifyRightstextTest"/>
+          <include name="verifyLoginSSOTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="verifyForgetPassword"/>
+          <include name="verifyLoginPageTitle"/>
+          <include name="verifyShowPassword"/>
+          <include name="verifyPrivacyPolicyTest"/>
+          <include name="verifySignInWithGoogleTest"/>
+          <include name="verifySignUpTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.LoginTest -->
+    </classes>
+  </test> <!-- HubSpot Regression Test cases on Firefox(failed) -->
+  <test name="HubSpot Regression Test cases on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <methods>
+          <include name="verifyAccountNameTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageHeaderTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+      <class name="com.qa.hubspot.tests.LoginTest">
+        <methods>
+          <include name="verifyRightstextTest"/>
+          <include name="verifyLoginSSOTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="verifyForgetPassword"/>
+          <include name="verifyLoginPageTitle"/>
+          <include name="verifyShowPassword"/>
+          <include name="verifyPrivacyPolicyTest"/>
+          <include name="verifySignInWithGoogleTest"/>
+          <include name="verifySignUpTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.LoginTest -->
+    </classes>
+  </test> <!-- HubSpot Regression Test cases on Chrome(failed) -->
+</suite> <!-- Failed suite [HubSpot Test Automation Suite] -->

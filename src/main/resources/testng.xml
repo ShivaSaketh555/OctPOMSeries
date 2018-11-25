@@ -1,0 +1,14 @@
+<suite name="HubSpot Test Automation Suite"  >  
+	
+	
+	<test name= "ubSpot Test Automation Suite on chrome">
+		<classes>
+			<!--  <class name="com.qa.hubspot.tests.HomePageTest"></class>
+			<class name="com.qa.hubspot.tests.LoginTest"></class> 
+-->			<class name="com.qa.hubspot.tests.ContactsPageTest"></class>
+
+		</classes>
+	
+	</test>
+	
+</suite>

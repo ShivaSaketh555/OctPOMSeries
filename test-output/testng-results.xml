@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HubSpot Test Automation Suite" duration-ms="94305" started-at="2018-11-21T01:32:34Z" finished-at="2018-11-21T01:34:09Z">
+    <groups>
+    </groups>
+    <test name="ubSpot Test Automation Suite on chrome" duration-ms="94305" started-at="2018-11-21T01:32:34Z" finished-at="2018-11-21T01:34:09Z">
+      <class name="com.qa.hubspot.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@42e26948]" name="setUp" is-config="true" duration-ms="49679" started-at="2018-11-21T07:02:35Z" finished-at="2018-11-21T07:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@42e26948]" name="createContactTest" duration-ms="6294" started-at="2018-11-21T07:03:25Z" data-provider="getContactsTestData" finished-at="2018-11-21T07:03:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivasaketh12345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shiva]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Saketh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manual Tester]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="979" started-at="2018-11-21T07:03:31Z" finished-at="2018-11-21T07:03:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@42e26948]" name="setUp" is-config="true" duration-ms="28090" started-at="2018-11-21T07:03:32Z" finished-at="2018-11-21T07:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@42e26948]" name="createContactTest" duration-ms="7545" started-at="2018-11-21T07:04:00Z" data-provider="getContactsTestData" finished-at="2018-11-21T07:04:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shivasaketh12345@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saketh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shiva]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ContactsPageTest@42e26948]" name="tearDown" is-config="true" duration-ms="739" started-at="2018-11-21T07:04:08Z" finished-at="2018-11-21T07:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+    </test> <!-- ubSpot Test Automation Suite on chrome -->
+  </suite> <!-- HubSpot Test Automation Suite -->
+</testng-results>
